@@ -8,9 +8,6 @@ def factorial(n):
             x = x*(i+1)
     except:
         print("The factorial function has failed - ensure value is an integer.\nProcess terminated.")
-        try:
-            ctypes.windll.user32.MessageBoxW(0,"The factorial function has failed - ensure value is an integer.\nProcess terminated.","Python Error",0x00000010)
-        except:
-            pass
+        ctypes.windll.user32.MessageBoxW(0,"The factorial function has failed - ensure value is an integer.\nProcess terminated.","Python Error",0x00000010)
         exit(1)
     return x
