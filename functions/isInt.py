@@ -1,7 +1,6 @@
 def isInt(x):
     '''
-    Checks to see whether a function is an integer or not.\n
-    Returns true or false.
+    Checks to see whether a function is an integer or not.
     '''
     try:
         if x%1 == 0:
