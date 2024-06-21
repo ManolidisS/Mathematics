@@ -10,4 +10,4 @@ def factorial(n):
     x = 1
     for i in range(n):
         x = x*(i+1)
-    return x
+    return int(x)
