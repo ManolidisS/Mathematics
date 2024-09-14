@@ -3,4 +3,4 @@ def e_matrix(matrix,m,n,x):
     matrix[m-1][n-1] = x 
     return matrix 
   except Exception as err: 
-    print("Function e_matrix() has failed. Check the inputs.\nError:",err)
+    raise("Function e_matrix() has failed. Check the inputs.\nError:",err)
