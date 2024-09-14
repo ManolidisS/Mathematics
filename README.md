@@ -14,3 +14,7 @@ Basically I thought what if we take a quadratic graph `f(x) = x**2`, with restri
 If we find a way to do this curve, and then rotate 180deg, and do it again, we'd have a nice petal.
 
 The way I did this was by using the *derivative* 🎉, specifically, using the tangent line formula and a for loop to create n tangent lines of the graph, then using a bit of trig to find the angles to turn.
+
+## Desmos.py
+This program was one I quickly made (so don't expect it to be good) to help me make music on Desmos using graphs.
+It asks you for a starting position (I'd recommend 0), and then you can enter a number for the note, a length, and convert it into desmos input (e.g. `{0<=x<=1:1}`)
