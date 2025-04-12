@@ -1,6 +1,6 @@
 def squareroot(x:float,n:int=4)->float:
     '''
-    Returns the (approximated) square root as a float for any given number that is either real or imaginary (cannot be complex).
+    Returns the (approximated) square root as a float for any given (real) number, both positive and negative.
     The variable n is the number of iterations and is automatically set to 4. Increasing it will yield a more accurate result, at the expense of more processing.
     '''
     if x > 0:
